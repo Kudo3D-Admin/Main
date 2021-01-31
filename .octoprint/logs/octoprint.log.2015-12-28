@@ -1,0 +1,13 @@
+2015-12-28 12:24:20,440 - octoprint.plugins.cura - INFO - Path to CuraEngine has not been configured yet or does not exist (currently set to None), Cura will not be selectable for slicing
+2015-12-28 12:24:23,142 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.199
+2015-12-28 12:25:09,946 - octoprint.server.api - INFO - Performing command: sudo shutdown -r now
+2015-12-28 12:25:32,825 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2015-12-28 12:25:32,832 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2015-12-28 12:25:34,033 - octoprint.plugin.core - INFO - No plugins available
+2015-12-28 12:25:34,353 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2015-12-28 12:25:37,241 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.199
+2015-12-28 12:32:51,276 - octoprint.server.api - INFO - Performing command: sudo shutdown -h now
+2015-12-28 12:33:14,999 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2015-12-28 12:33:15,013 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2015-12-28 12:33:17,079 - octoprint.plugin.core - INFO - No plugins available
+2015-12-28 12:33:17,366 - octoprint.server - INFO - Listening on http://0.0.0.0:5000

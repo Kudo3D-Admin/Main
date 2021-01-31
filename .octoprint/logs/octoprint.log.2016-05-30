@@ -1,0 +1,54 @@
+2016-05-30 08:22:46,305 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2016-05-30 08:27:53,676 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.102
+2016-05-30 08:40:59,040 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-05-30 08:40:59,052 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2016-05-30 08:41:16,108 - octoprint.plugin.core - INFO - No plugins available
+2016-05-30 08:41:16,388 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2016-05-30 08:41:20,557 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.102
+2016-05-30 08:43:21,904 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.102
+2016-05-30 08:48:22,066 - octoprint.server.api - INFO - Performing command: sudo shutdown -h now
+2016-05-30 08:48:43,525 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-05-30 08:48:43,533 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2016-05-30 08:48:44,912 - octoprint.plugin.core - INFO - No plugins available
+2016-05-30 08:48:45,081 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2016-05-30 08:52:07,276 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.102
+2016-05-30 08:55:21,245 - octoprint.server.api - INFO - Performing command: sudo shutdown -h now
+2016-05-30 08:55:42,274 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-05-30 08:55:42,282 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2016-05-30 08:55:43,811 - octoprint.plugin.core - INFO - No plugins available
+2016-05-30 08:55:43,956 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2016-05-30 08:59:00,895 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.102
+2016-05-30 08:59:00,915 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.102
+2016-05-30 08:59:01,018 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.102
+2016-05-30 08:59:01,045 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.102
+2016-05-30 08:59:01,071 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.102
+2016-05-30 08:59:01,088 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.102
+2016-05-30 08:59:01,106 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.102
+2016-05-30 08:59:01,126 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.102
+2016-05-30 08:59:01,145 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.102
+2016-05-30 08:59:01,172 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.102
+2016-05-30 08:59:01,194 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.102
+2016-05-30 09:02:10,335 - octoprint.server.api - INFO - Performing command: sudo shutdown -r now
+2016-05-30 09:02:31,687 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-05-30 09:02:31,695 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2016-05-30 09:02:33,356 - octoprint.plugin.core - INFO - No plugins available
+2016-05-30 09:02:33,573 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2016-05-30 09:05:00,613 - octoprint.server.util.sockjs - INFO - New connection from client: 10.250.250.157
+2016-05-30 09:06:47,167 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.102
+2016-05-30 09:07:56,009 - octoprint.server.util.sockjs - INFO - Client connection closed: 10.250.250.157
+2016-05-30 09:08:55,162 - octoprint.server.util.sockjs - INFO - New connection from client: 10.250.250.157
+2016-05-30 09:09:38,138 - octoprint.server.api - INFO - Performing command: sudo shutdown -h now
+2016-05-30 09:09:58,911 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-05-30 09:09:58,919 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2016-05-30 09:09:59,688 - octoprint.plugin.core - INFO - No plugins available
+2016-05-30 09:09:59,924 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2016-05-30 09:11:18,355 - octoprint.server.util.sockjs - INFO - New connection from client: 10.250.250.157
+2016-05-30 09:11:33,830 - octoprint.server.util.sockjs - INFO - Client connection closed: 10.250.250.157
+2016-05-30 09:11:38,088 - octoprint.server.util.sockjs - INFO - New connection from client: 10.250.250.157
+2016-05-30 09:11:50,303 - octoprint.server.api - INFO - Performing command: sudo shutdown -h now
+2016-05-30 09:12:12,498 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-05-30 09:12:12,506 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2016-05-30 09:12:14,176 - octoprint.plugin.core - INFO - No plugins available
+2016-05-30 09:12:14,396 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2016-05-30 09:19:35,362 - octoprint.server.util.sockjs - INFO - New connection from client: 10.250.250.157
+2016-05-30 09:20:19,014 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.102

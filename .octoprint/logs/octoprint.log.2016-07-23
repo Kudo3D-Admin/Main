@@ -1,0 +1,150 @@
+2016-07-23 11:26:43,365 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:43,405 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:43,461 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:43,500 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:43,548 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:43,598 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:43,648 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:43,671 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:43,693 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:43,714 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:43,770 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:43,797 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:43,821 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:43,877 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:43,904 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:43,931 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:43,961 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:43,990 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:44,122 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:44,502 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:44,948 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:45,105 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:45,191 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:45,460 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:45,483 - octoprint.server.util.sockjs - WARNING - Could not send message to client 192.168.0.107: pop from an empty deque
+2016-07-23 11:26:45,595 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:46,006 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:46,109 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:46,174 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:46,212 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:46,254 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:46,291 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:46,331 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:46,379 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:46,459 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:46,555 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:46,602 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:46,804 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:47,214 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:47,258 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:47,300 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:47,380 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:47,557 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:47,599 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:48,032 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:26:48,051 - octoprint.server.util.sockjs - WARNING - Could not send message to client 192.168.0.107: deque index out of range
+2016-07-23 11:26:48,961 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:28:31,738 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:31,752 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:31,762 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:31,771 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:31,779 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:31,787 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:31,802 - tornado.application - ERROR - Exception in callback None
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tornado-4.0.1-py2.7-linux-armv7l.egg/tornado/ioloop.py", line 832, in start
+    fd_obj, handler_func = self._handlers[fd]
+KeyError: 28
+2016-07-23 11:28:31,819 - tornado.application - ERROR - Exception in callback None
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tornado-4.0.1-py2.7-linux-armv7l.egg/tornado/ioloop.py", line 832, in start
+    fd_obj, handler_func = self._handlers[fd]
+KeyError: 29
+2016-07-23 11:28:31,824 - tornado.application - ERROR - Exception in callback None
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tornado-4.0.1-py2.7-linux-armv7l.egg/tornado/ioloop.py", line 832, in start
+    fd_obj, handler_func = self._handlers[fd]
+KeyError: 30
+2016-07-23 11:28:31,852 - tornado.application - ERROR - Exception in callback None
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tornado-4.0.1-py2.7-linux-armv7l.egg/tornado/ioloop.py", line 832, in start
+    fd_obj, handler_func = self._handlers[fd]
+KeyError: 32
+2016-07-23 11:28:31,881 - tornado.application - ERROR - Exception in callback None
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tornado-4.0.1-py2.7-linux-armv7l.egg/tornado/ioloop.py", line 832, in start
+    fd_obj, handler_func = self._handlers[fd]
+KeyError: 33
+2016-07-23 11:28:31,882 - tornado.application - ERROR - Exception in callback None
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tornado-4.0.1-py2.7-linux-armv7l.egg/tornado/ioloop.py", line 832, in start
+    fd_obj, handler_func = self._handlers[fd]
+KeyError: 34
+2016-07-23 11:28:31,883 - tornado.application - ERROR - Exception in callback None
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tornado-4.0.1-py2.7-linux-armv7l.egg/tornado/ioloop.py", line 832, in start
+    fd_obj, handler_func = self._handlers[fd]
+KeyError: 35
+2016-07-23 11:28:31,884 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:31,888 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:31,905 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:31,922 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:31,963 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:31,967 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:31,984 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:31,999 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,015 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,019 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,044 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,058 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,067 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,085 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,098 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,107 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,123 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,128 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,147 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,158 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,170 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,180 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,188 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,200 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,208 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,214 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,228 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,236 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,245 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,253 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,258 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,268 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,275 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,279 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,287 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,293 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,299 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,304 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:32,317 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.107
+2016-07-23 11:28:40,571 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:32:58,218 - octoprint.server.api - INFO - Performing command: sudo shutdown -r now
+2016-07-23 11:33:20,247 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-07-23 11:33:20,255 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2016-07-23 11:33:22,068 - octoprint.plugin.core - INFO - No plugins available
+2016-07-23 11:33:22,305 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2016-07-23 11:33:26,587 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:47:32,335 - octoprint.server.api - INFO - Performing command: sudo shutdown -r now
+2016-07-23 11:47:56,477 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-07-23 11:47:56,485 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2016-07-23 11:47:58,812 - octoprint.plugin.core - INFO - No plugins available
+2016-07-23 11:47:59,253 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2016-07-23 11:47:59,669 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.107
+2016-07-23 11:51:08,815 - octoprint.server.util.sockjs - INFO - New connection from client: 10.250.250.157
+2016-07-23 11:51:33,836 - octoprint.server.util.sockjs - INFO - Client connection closed: 10.250.250.157
+2016-07-23 11:51:50,774 - octoprint.server.util.sockjs - INFO - New connection from client: 10.250.250.157
+2016-07-23 11:52:21,488 - octoprint.server.api - INFO - Performing command: sudo shutdown -r now
+2016-07-23 11:52:42,776 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-07-23 11:52:42,784 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2016-07-23 11:52:44,579 - octoprint.plugin.core - INFO - No plugins available
+2016-07-23 11:52:44,792 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2016-07-23 11:52:49,849 - octoprint.server.util.sockjs - INFO - New connection from client: 10.250.250.157
+2016-07-23 11:53:21,326 - octoprint.server.api - INFO - Performing command: sudo shutdown -h now

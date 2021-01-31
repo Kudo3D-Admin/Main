@@ -1,0 +1,20 @@
+2015-12-03 09:31:34,663 - octoprint.plugin.core - INFO - 2 plugin(s) registered with the system:
+|  CuraEngine (bundled) = /home/pi/OctoPrint/src/octoprint/plugins/cura
+|  Discovery (bundled) = /home/pi/OctoPrint/src/octoprint/plugins/discovery
+2015-12-03 09:31:34,873 - octoprint.plugins.discovery - INFO - Registered OctoPrint instance "Kudo3D" for SSDP
+2015-12-03 09:31:34,875 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2015-12-03 09:31:47,881 - octoprint.plugins.cura - INFO - Path to CuraEngine has not been configured yet or does not exist (currently set to None), Cura will not be selectable for slicing
+2015-12-03 09:31:48,225 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.194
+2015-12-03 09:35:45,622 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.194
+2015-12-03 09:35:46,823 - octoprint.plugins.cura - INFO - Path to CuraEngine has not been configured yet or does not exist (currently set to None), Cura will not be selectable for slicing
+2015-12-03 09:35:47,155 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.194
+2015-12-03 09:45:41,469 - octoprint.plugins.cura - INFO - Path to CuraEngine has not been configured yet or does not exist (currently set to None), Cura will not be selectable for slicing
+2015-12-03 09:45:42,638 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.194
+2015-12-03 09:46:36,432 - octoprint.plugins.cura - INFO - Path to CuraEngine has not been configured yet or does not exist (currently set to None), Cura will not be selectable for slicing
+2015-12-03 09:46:38,597 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.194
+2015-12-03 09:51:53,391 - octoprint.plugins.cura - INFO - Path to CuraEngine has not been configured yet or does not exist (currently set to None), Cura will not be selectable for slicing
+2015-12-03 09:51:53,745 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.194
+2015-12-03 09:51:53,757 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.194
+2015-12-03 10:02:59,600 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.194
+2015-12-03 10:02:59,612 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.194
+2015-12-03 10:06:56,439 - octoprint.server.api - INFO - Performing command: sudo shutdown -h now

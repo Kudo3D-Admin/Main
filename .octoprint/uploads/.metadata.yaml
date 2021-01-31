@@ -1,0 +1,240 @@
+AnaisP.slice.zip:
+  analysis:
+    filament:
+      tool0:
+        length: 0.0
+        volume: 0.0
+      tool1:
+        length: 0.0
+        volume: 0.0
+      tool2:
+        length: 0.0
+        volume: 0.0
+      tool3:
+        length: 0.0
+        volume: 0.0
+      tool4:
+        length: 0.0
+        volume: 0.0
+      tool5:
+        length: 0.0
+        volume: 0.0
+      tool6:
+        length: 0.0
+        volume: 0.0
+  hash: e493017afe9f0a8948aa06fb47d41662f5660e73
+  history:
+  - printerProfile: _default
+    success: false
+    timestamp: 1447393770.348065
+  - printerProfile: _default
+    success: false
+    timestamp: 1447418076.213423
+  - printerProfile: _default
+    success: false
+    timestamp: 1447431230.097916
+  - printerProfile: _default
+    success: false
+    timestamp: 1459362359.599898
+  links: []
+  statistics:
+    averagePrintTime: {}
+    lastPrintTime: {}
+blacktest.zip:
+  analysis:
+    filament:
+      tool0:
+        length: 0.0
+        volume: 0.0
+  hash: 5062c4dc6ca457502680342b21db880ed893414c
+  history:
+  - printerProfile: _default
+    success: false
+    timestamp: 1469273461.845771
+  - printerProfile: _default
+    success: false
+    timestamp: 1469273727.358975
+  - printerProfile: _default
+    success: false
+    timestamp: 1469274031.759517
+  links: []
+  statistics:
+    averagePrintTime: {}
+    lastPrintTime: {}
+cylinder_test.3dlp.zip:
+  analysis:
+    filament:
+      tool0:
+        length: 0.0
+        volume: 0.0
+  hash: 2e3d261093b3a8a70ccf6d2b64cade0913d3f501
+  history:
+  - printerProfile: _default
+    success: false
+    timestamp: 1433269476.364144
+  - printerProfile: _default
+    success: false
+    timestamp: 1433271828.142933
+  - printerProfile: _default
+    success: false
+    timestamp: 1433302678.396133
+  - printerProfile: _default
+    success: false
+    timestamp: 1433347106.111602
+  - printerProfile: _default
+    success: false
+    timestamp: 1433349128.368433
+  - printerProfile: _default
+    success: false
+    timestamp: 1433520612.532821
+  - printerProfile: _default
+    success: false
+    timestamp: 1433526970.590001
+  - printerProfile: _default
+    success: false
+    timestamp: 1447000512.37012
+  - printerProfile: _default
+    success: false
+    timestamp: 1447350910.726406
+  - printerProfile: _default
+    success: false
+    timestamp: 1447352642.435693
+  - printerProfile: _default
+    success: false
+    timestamp: 1447353404.720135
+  - printerProfile: _default
+    success: false
+    timestamp: 1447431440.788548
+  - printerProfile: _default
+    success: false
+    timestamp: 1447431513.533593
+  - printerProfile: _default
+    success: false
+    timestamp: 1447431893.25601
+  - printerProfile: _default
+    success: false
+    timestamp: 1447433673.348038
+  - printerProfile: _default
+    success: false
+    timestamp: 1447433743.341264
+  - printerProfile: _default
+    success: false
+    timestamp: 1447433787.266363
+  - printerProfile: _default
+    success: false
+    timestamp: 1447434534.4915
+  - printerProfile: _default
+    success: false
+    timestamp: 1447435930.44024
+  - printerProfile: _default
+    success: false
+    timestamp: 1447438083.806063
+  - printerProfile: _default
+    success: false
+    timestamp: 1447439424.308356
+  - printerProfile: _default
+    success: false
+    timestamp: 1447439756.038812
+  - printerProfile: _default
+    success: false
+    timestamp: 1447440349.284477
+  - printerProfile: _default
+    success: false
+    timestamp: 1447440803.35905
+  - printerProfile: _default
+    success: false
+    timestamp: 1447440931.295887
+  - printerProfile: _default
+    success: false
+    timestamp: 1447441042.323179
+  - printerProfile: _default
+    success: false
+    timestamp: 1447441484.19746
+  - printerProfile: _default
+    success: false
+    timestamp: 1447833485.542442
+  - printerProfile: _default
+    success: false
+    timestamp: 1447837888.049731
+  - printerProfile: _default
+    success: false
+    timestamp: 1447838861.981888
+  - printerProfile: _default
+    success: false
+    timestamp: 1448904797.227851
+  - printerProfile: _default
+    success: false
+    timestamp: 1448905442.154579
+  - printerProfile: _default
+    success: false
+    timestamp: 1448945132.296544
+  - printerProfile: _default
+    success: false
+    timestamp: 1449661426.723335
+  - printerProfile: _default
+    success: false
+    timestamp: 1449661523.426927
+  - printerProfile: _default
+    success: false
+    timestamp: 1459362277.877856
+  - printerProfile: _default
+    success: false
+    timestamp: 1459362697.190946
+  - printerProfile: _default
+    success: false
+    timestamp: 1460002028.381582
+  - printerProfile: _default
+    success: false
+    timestamp: 1464598086.101346
+  - printerProfile: _default
+    success: false
+    timestamp: 1464598487.254099
+  links: []
+  statistics:
+    averagePrintTime: {}
+    lastPrintTime: {}
+kudo3735.zip:
+  analysis:
+    filament:
+      tool0:
+        length: 0.0
+        volume: 0.0
+      tool1:
+        length: 0.0
+        volume: 0.0
+      tool2:
+        length: 0.0
+        volume: 0.0
+      tool3:
+        length: 0.0
+        volume: 0.0
+      tool4:
+        length: 0.0
+        volume: 0.0
+      tool5:
+        length: 0.0
+        volume: 0.0
+      tool6:
+        length: 0.0
+        volume: 0.0
+      tool7:
+        length: 0.0
+        volume: 0.0
+      tool8:
+        length: 0.0
+        volume: 0.0
+      tool9:
+        length: 0.0
+        volume: 0.0
+  hash: f5d42e6885c3330d5639b62d8e6e75a149b0d013
+  history:
+  - printerProfile: _default
+    success: false
+    timestamp: 1467277090.114099
+  - printerProfile: _default
+    success: false
+    timestamp: 1470819806.019598
+  links: []
+  statistics:
+    averagePrintTime: {}
+    lastPrintTime: {}

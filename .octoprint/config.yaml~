@@ -1,0 +1,80 @@
+accessControl:
+  enabled: false
+api:
+  key: 3F7D975836D84637ADEE77A721D99FAE
+appearance:
+  defaultLanguage: en
+feature:
+  sdSupport: false
+  temperatureGraph: false
+gcodeViewer:
+  enabled: false
+plugins:
+  discovery:
+    httpPassword: null
+    httpUsername: null
+    model:
+      description: null
+      name: null
+      number: null
+      serial: null
+      url: null
+      vendor: null
+      vendorUrl: null
+    pathPrefix: null
+    publicHost: null
+    publicPort: null
+    upnpUuid: 648e8f24-33e7-4b38-b291-0baa4cf3c235
+    zeroConf: []
+printerParameters: {}
+printerProfiles:
+  defaultProfile: {}
+printerset:
+  layert: '0.05'
+  nres: 78
+  spec:
+  - delay: '0.2'
+    downs: 150
+    expos: '1.5'
+    fromlay: 1
+    lift: '3'
+    tolay: '5'
+    ups: 25
+  - delay: '0.2'
+    downs: 150
+    expos: '1.5'
+    fromlay: '6'
+    lift: '3'
+    tolay: '1073'
+    ups: 25
+serial:
+  baudrate: 115200
+  port: /dev/ttyUSB0
+  port1: /dev/ttyUSB0
+  projector: viewsonic
+  timeout: {}
+  zpos: 237.0
+server:
+  firstRun: false
+  secretKey: 9z6pLciUvVH7rt31X4NQckSKVSInlqAP
+system:
+  actions:
+  - action: shutdown
+    command: sudo shutdown -h now
+    confirm: You are about to shutdown the system.
+    name: Shutdown
+  - action: reboot
+    command: sudo shutdown -r now
+    confirm: You are about to reboot the system
+    name: Reboot
+  - action: restart
+    command: sudo service octoprint restart
+    confirm: You are about to restart OctoPrint
+    name: Restart OctoPrint
+temperature: {}
+webcam:
+  bitrate: ''
+  ffmpeg: ''
+  snapshot: ''
+  stream: ''
+  watermark: false

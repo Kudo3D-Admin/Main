@@ -1,0 +1,76 @@
+2016-03-30 16:08:33,440 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.199
+2016-03-30 16:09:34,132 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.199
+2016-03-30 16:26:04,562 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-03-30 16:26:04,573 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2016-03-30 16:26:06,579 - octoprint.plugin.core - INFO - No plugins available
+2016-03-30 16:26:06,864 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2016-03-30 16:45:45,181 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.199
+2016-03-30 16:46:51,876 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.199
+2016-03-30 16:46:55,254 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.199
+2016-03-30 16:47:49,942 - octoprint.server.api - INFO - Performing command: sudo shutdown -r now
+2016-03-30 16:50:38,283 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-03-30 16:50:38,290 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2016-03-30 16:50:39,490 - octoprint.plugin.core - INFO - No plugins available
+2016-03-30 16:50:39,670 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2016-03-30 18:12:17,279 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.199
+2016-03-30 18:13:03,732 - octoprint - ERROR - Exception on /api/files/local/cylinder_test.3dlp.zip [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/pi/OctoPrint/src/octoprint/server/util/flask.py", line 214, in decorated_view
+    return flask.ext.login.login_required(func)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/Flask_Login-0.2.2-py2.7.egg/flask_login.py", line 637, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/pi/OctoPrint/src/octoprint/server/api/files.py", line 300, in gcodeFileCommand
+    printer.select_file(filenameToSelect, sd, printAfterLoading)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 1024, in select_file
+    layers = self.parse_3DLP_zip(path)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 1001, in parse_3DLP_zip
+    shutil.rmtree(self.image_dir)
+  File "/usr/lib/python2.7/shutil.py", line 239, in rmtree
+    onerror(os.listdir, path, sys.exc_info())
+  File "/usr/lib/python2.7/shutil.py", line 237, in rmtree
+    names = os.listdir(path)
+OSError: [Errno 2] No such file or directory: '/home/piOctoPrint/src/octoprint/static/image'
+2016-03-30 18:13:30,240 - octoprint - ERROR - Exception on /api/files/local/AnaisP.slice.zip [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/pi/OctoPrint/src/octoprint/server/util/flask.py", line 214, in decorated_view
+    return flask.ext.login.login_required(func)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/Flask_Login-0.2.2-py2.7.egg/flask_login.py", line 637, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/pi/OctoPrint/src/octoprint/server/api/files.py", line 300, in gcodeFileCommand
+    printer.select_file(filenameToSelect, sd, printAfterLoading)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 1024, in select_file
+    layers = self.parse_3DLP_zip(path)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 1001, in parse_3DLP_zip
+    shutil.rmtree(self.image_dir)
+  File "/usr/lib/python2.7/shutil.py", line 239, in rmtree
+    onerror(os.listdir, path, sys.exc_info())
+  File "/usr/lib/python2.7/shutil.py", line 237, in rmtree
+    names = os.listdir(path)
+OSError: [Errno 2] No such file or directory: '/home/piOctoPrint/src/octoprint/static/image'
+2016-03-30 18:20:27,861 - octoprint.server.api - INFO - Performing command: sudo shutdown -r now
+2016-03-30 18:20:50,568 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-03-30 18:20:50,575 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2016-03-30 18:20:51,159 - octoprint.plugin.core - INFO - No plugins available
+2016-03-30 18:20:51,483 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2016-03-30 18:21:00,146 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.199
+2016-03-30 18:35:13,653 - octoprint.server.api - INFO - Performing command: sudo shutdown -h now
+2016-03-30 18:35:39,583 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-03-30 18:35:39,594 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2016-03-30 18:35:41,579 - octoprint.plugin.core - INFO - No plugins available
+2016-03-30 18:35:41,867 - octoprint.server - INFO - Listening on http://0.0.0.0:5000

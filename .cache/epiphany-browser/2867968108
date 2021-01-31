@@ -1,0 +1,1 @@
+{"current": {"baudrate": null, "state": "Closed", "port": null, "printerProfile": "_default"}, "options": {"baudrates": [250000, 230400, 115200, 57600, 38400, 19200, 9600], "printerProfiles": [{"name": "Default", "id": "_default"}], "baudratePreference": null, "printerProfilePreference": "_default", "portPreference": null, "ports": []}}

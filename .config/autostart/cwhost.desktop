@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=cwhost
+Comment=
+Exec=/home/pi/OctoPrint/run
+StartupNotify=false
+Terminal=false
+Hidden=false

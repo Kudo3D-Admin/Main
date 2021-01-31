@@ -1,0 +1,417 @@
+2016-08-10 08:48:51,013 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-08-10 08:48:51,022 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2016-08-10 08:48:52,814 - octoprint.plugin.core - INFO - No plugins available
+2016-08-10 08:48:53,035 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2016-08-10 08:59:31,411 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.102
+2016-08-10 09:08:36,576 - octoprint.server.api - INFO - Performing command: sudo shutdown -h now
+2016-08-10 12:14:55,989 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-08-10 12:14:55,997 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2016-08-10 12:14:56,901 - octoprint.plugin.core - INFO - No plugins available
+2016-08-10 12:14:57,129 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2016-08-10 12:16:11,567 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.102
+2016-08-10 12:16:25,892 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.102
+2016-08-10 12:16:28,076 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.102
+2016-08-10 12:29:07,796 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-08-10 12:29:07,805 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2016-08-10 12:48:36,932 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-08-10 12:48:36,940 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2016-08-10 12:48:37,704 - octoprint.plugin.core - INFO - No plugins available
+2016-08-10 12:48:37,918 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2016-08-10 12:49:00,628 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.102
+2016-08-10 12:49:41,840 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.102
+2016-08-10 12:55:21,861 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-08-10 12:55:21,869 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2016-08-10 12:55:22,634 - octoprint.plugin.core - INFO - No plugins available
+2016-08-10 12:55:22,852 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2016-08-10 12:55:33,658 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.102
+2016-08-10 14:19:20,889 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.102
+2016-08-10 14:34:28,997 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-08-10 14:34:29,004 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2016-08-10 14:34:29,701 - octoprint.server - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "./run", line 22, in <module>
+    octoprint.main()
+  File "/home/pi/OctoPrint/src/octoprint/__init__.py", line 81, in main
+    octoprint.run()
+  File "/home/pi/OctoPrint/src/octoprint/server/__init__.py", line 588, in run
+    printer = Printer(fileManager, analysisQueue, printerProfileManager)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 549, in __init__
+    self.display_frame = PrintimgThread(1, "display_frame", self._state_lock, self.printcommand, self.setjobcommand, self.sendlogcommand, self.finish_print)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 87, in __init__
+    self.screen = pygame.display.set_mode((SW,SH))
+error: Unable to open a console terminal
+2016-08-10 14:35:54,128 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-08-10 14:35:54,135 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2016-08-10 14:35:54,793 - octoprint.server - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "./run", line 22, in <module>
+    octoprint.main()
+  File "/home/pi/OctoPrint/src/octoprint/__init__.py", line 81, in main
+    octoprint.run()
+  File "/home/pi/OctoPrint/src/octoprint/server/__init__.py", line 588, in run
+    printer = Printer(fileManager, analysisQueue, printerProfileManager)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 549, in __init__
+    self.display_frame = PrintimgThread(1, "display_frame", self._state_lock, self.printcommand, self.setjobcommand, self.sendlogcommand, self.finish_print)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 87, in __init__
+    self.screen = pygame.display.set_mode((SW,SH))
+error: Unable to open a console terminal
+2016-08-10 14:38:31,655 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-08-10 14:38:31,663 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2016-08-10 14:38:32,373 - octoprint.server - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "./run", line 22, in <module>
+    octoprint.main()
+  File "/home/pi/OctoPrint/src/octoprint/__init__.py", line 81, in main
+    octoprint.run()
+  File "/home/pi/OctoPrint/src/octoprint/server/__init__.py", line 588, in run
+    printer = Printer(fileManager, analysisQueue, printerProfileManager)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 549, in __init__
+    self.display_frame = PrintimgThread(1, "display_frame", self._state_lock, self.printcommand, self.setjobcommand, self.sendlogcommand, self.finish_print)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 87, in __init__
+    self.screen = pygame.display.set_mode((SW,SH))
+error: Unable to open a console terminal
+2016-08-10 14:40:43,303 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-08-10 14:40:43,311 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2016-08-10 14:40:43,972 - octoprint.server - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "./run", line 22, in <module>
+    octoprint.main()
+  File "/home/pi/OctoPrint/src/octoprint/__init__.py", line 81, in main
+    octoprint.run()
+  File "/home/pi/OctoPrint/src/octoprint/server/__init__.py", line 588, in run
+    printer = Printer(fileManager, analysisQueue, printerProfileManager)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 549, in __init__
+    self.display_frame = PrintimgThread(1, "display_frame", self._state_lock, self.printcommand, self.setjobcommand, self.sendlogcommand, self.finish_print)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 87, in __init__
+    self.screen = pygame.display.set_mode((SW,SH))
+error: Unable to open a console terminal
+2016-08-10 15:02:25,886 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-08-10 15:02:25,892 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2016-08-10 15:02:26,551 - octoprint.server - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "./run", line 22, in <module>
+    octoprint.main()
+  File "/home/pi/OctoPrint/src/octoprint/__init__.py", line 81, in main
+    octoprint.run()
+  File "/home/pi/OctoPrint/src/octoprint/server/__init__.py", line 588, in run
+    printer = Printer(fileManager, analysisQueue, printerProfileManager)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 549, in __init__
+    self.display_frame = PrintimgThread(1, "display_frame", self._state_lock, self.printcommand, self.setjobcommand, self.sendlogcommand, self.finish_print)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 87, in __init__
+    self.screen = pygame.display.set_mode((SW,SH))
+error: Unable to open a console terminal
+2016-08-10 15:03:38,187 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-08-10 15:03:38,194 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2016-08-10 15:03:38,853 - octoprint.server - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "./run", line 22, in <module>
+    octoprint.main()
+  File "/home/pi/OctoPrint/src/octoprint/__init__.py", line 81, in main
+    octoprint.run()
+  File "/home/pi/OctoPrint/src/octoprint/server/__init__.py", line 588, in run
+    printer = Printer(fileManager, analysisQueue, printerProfileManager)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 549, in __init__
+    self.display_frame = PrintimgThread(1, "display_frame", self._state_lock, self.printcommand, self.setjobcommand, self.sendlogcommand, self.finish_print)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 87, in __init__
+    self.screen = pygame.display.set_mode((SW,SH))
+error: Unable to open a console terminal
+2016-08-10 15:12:59,096 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-08-10 15:12:59,104 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2016-08-10 15:12:59,811 - octoprint.server - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "./run", line 22, in <module>
+    octoprint.main()
+  File "/home/pi/OctoPrint/src/octoprint/__init__.py", line 81, in main
+    octoprint.run()
+  File "/home/pi/OctoPrint/src/octoprint/server/__init__.py", line 588, in run
+    printer = Printer(fileManager, analysisQueue, printerProfileManager)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 549, in __init__
+    self.display_frame = PrintimgThread(1, "display_frame", self._state_lock, self.printcommand, self.setjobcommand, self.sendlogcommand, self.finish_print)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 87, in __init__
+    self.screen = pygame.display.set_mode((SW,SH))
+error: Unable to open a console terminal
+2016-08-10 15:30:37,982 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-08-10 15:30:37,990 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2016-08-10 15:30:38,623 - octoprint.server - ERROR - Uncaught exception
+Traceback (most recent call last):
+  File "./run", line 22, in <module>
+    octoprint.main()
+  File "/home/pi/OctoPrint/src/octoprint/__init__.py", line 81, in main
+    octoprint.run()
+  File "/home/pi/OctoPrint/src/octoprint/server/__init__.py", line 588, in run
+    printer = Printer(fileManager, analysisQueue, printerProfileManager)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 549, in __init__
+    self.display_frame = PrintimgThread(1, "display_frame", self._state_lock, self.printcommand, self.setjobcommand, self.sendlogcommand, self.finish_print)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 87, in __init__
+    self.screen = pygame.display.set_mode((SW,SH))
+error: Unable to open a console terminal
+2016-08-10 15:54:20,203 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-08-10 15:54:20,214 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2016-08-10 15:54:21,487 - octoprint.plugin.core - INFO - No plugins available
+2016-08-10 15:54:21,700 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2016-08-10 15:54:28,442 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.102
+2016-08-10 15:55:09,007 - octoprint - ERROR - Exception on /api/files/local/kudo3735.zip [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/pi/OctoPrint/src/octoprint/server/util/flask.py", line 214, in decorated_view
+    return flask.ext.login.login_required(func)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/Flask_Login-0.2.2-py2.7.egg/flask_login.py", line 637, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/pi/OctoPrint/src/octoprint/server/api/files.py", line 305, in gcodeFileCommand
+    printer.select_file(filenameToSelect, sd, printAfterLoading)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 1184, in select_file
+    layers = self.parse_3DLP_zip(path)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 1125, in parse_3DLP_zip
+    shutil.rmtree(self.image_dir)
+  File "/usr/lib/python2.7/shutil.py", line 252, in rmtree
+    onerror(os.remove, fullname, sys.exc_info())
+  File "/usr/lib/python2.7/shutil.py", line 250, in rmtree
+    os.remove(fullname)
+OSError: [Errno 13] Permission denied: '/home/pi/OctoPrint/src/octoprint/static/image/Kudo3D_calibration_50500124.png'
+2016-08-10 15:55:11,069 - octoprint - ERROR - Exception on /api/files/local/kudo3735.zip [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/pi/OctoPrint/src/octoprint/server/util/flask.py", line 214, in decorated_view
+    return flask.ext.login.login_required(func)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/Flask_Login-0.2.2-py2.7.egg/flask_login.py", line 637, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/pi/OctoPrint/src/octoprint/server/api/files.py", line 305, in gcodeFileCommand
+    printer.select_file(filenameToSelect, sd, printAfterLoading)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 1184, in select_file
+    layers = self.parse_3DLP_zip(path)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 1125, in parse_3DLP_zip
+    shutil.rmtree(self.image_dir)
+  File "/usr/lib/python2.7/shutil.py", line 252, in rmtree
+    onerror(os.remove, fullname, sys.exc_info())
+  File "/usr/lib/python2.7/shutil.py", line 250, in rmtree
+    os.remove(fullname)
+OSError: [Errno 13] Permission denied: '/home/pi/OctoPrint/src/octoprint/static/image/Kudo3D_calibration_50500124.png'
+2016-08-10 15:55:13,665 - octoprint - ERROR - Exception on /api/files/local/cylinder_test.3dlp.zip [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/pi/OctoPrint/src/octoprint/server/util/flask.py", line 214, in decorated_view
+    return flask.ext.login.login_required(func)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/Flask_Login-0.2.2-py2.7.egg/flask_login.py", line 637, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/pi/OctoPrint/src/octoprint/server/api/files.py", line 305, in gcodeFileCommand
+    printer.select_file(filenameToSelect, sd, printAfterLoading)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 1184, in select_file
+    layers = self.parse_3DLP_zip(path)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 1125, in parse_3DLP_zip
+    shutil.rmtree(self.image_dir)
+  File "/usr/lib/python2.7/shutil.py", line 252, in rmtree
+    onerror(os.remove, fullname, sys.exc_info())
+  File "/usr/lib/python2.7/shutil.py", line 250, in rmtree
+    os.remove(fullname)
+OSError: [Errno 13] Permission denied: '/home/pi/OctoPrint/src/octoprint/static/image/Kudo3D_calibration_50500124.png'
+2016-08-10 15:55:14,542 - octoprint - ERROR - Exception on /api/files/local/blacktest.zip [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/pi/OctoPrint/src/octoprint/server/util/flask.py", line 214, in decorated_view
+    return flask.ext.login.login_required(func)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/Flask_Login-0.2.2-py2.7.egg/flask_login.py", line 637, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/pi/OctoPrint/src/octoprint/server/api/files.py", line 305, in gcodeFileCommand
+    printer.select_file(filenameToSelect, sd, printAfterLoading)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 1184, in select_file
+    layers = self.parse_3DLP_zip(path)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 1125, in parse_3DLP_zip
+    shutil.rmtree(self.image_dir)
+  File "/usr/lib/python2.7/shutil.py", line 252, in rmtree
+    onerror(os.remove, fullname, sys.exc_info())
+  File "/usr/lib/python2.7/shutil.py", line 250, in rmtree
+    os.remove(fullname)
+OSError: [Errno 13] Permission denied: '/home/pi/OctoPrint/src/octoprint/static/image/Kudo3D_calibration_50500124.png'
+2016-08-10 15:55:15,742 - octoprint - ERROR - Exception on /api/files/local/AnaisP.slice.zip [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/pi/OctoPrint/src/octoprint/server/util/flask.py", line 214, in decorated_view
+    return flask.ext.login.login_required(func)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/Flask_Login-0.2.2-py2.7.egg/flask_login.py", line 637, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/pi/OctoPrint/src/octoprint/server/api/files.py", line 305, in gcodeFileCommand
+    printer.select_file(filenameToSelect, sd, printAfterLoading)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 1184, in select_file
+    layers = self.parse_3DLP_zip(path)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 1125, in parse_3DLP_zip
+    shutil.rmtree(self.image_dir)
+  File "/usr/lib/python2.7/shutil.py", line 252, in rmtree
+    onerror(os.remove, fullname, sys.exc_info())
+  File "/usr/lib/python2.7/shutil.py", line 250, in rmtree
+    os.remove(fullname)
+OSError: [Errno 13] Permission denied: '/home/pi/OctoPrint/src/octoprint/static/image/Kudo3D_calibration_50500124.png'
+2016-08-10 15:55:16,725 - octoprint - ERROR - Exception on /api/files/local/blacktest.zip [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/pi/OctoPrint/src/octoprint/server/util/flask.py", line 214, in decorated_view
+    return flask.ext.login.login_required(func)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/Flask_Login-0.2.2-py2.7.egg/flask_login.py", line 637, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/pi/OctoPrint/src/octoprint/server/api/files.py", line 305, in gcodeFileCommand
+    printer.select_file(filenameToSelect, sd, printAfterLoading)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 1184, in select_file
+    layers = self.parse_3DLP_zip(path)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 1125, in parse_3DLP_zip
+    shutil.rmtree(self.image_dir)
+  File "/usr/lib/python2.7/shutil.py", line 252, in rmtree
+    onerror(os.remove, fullname, sys.exc_info())
+  File "/usr/lib/python2.7/shutil.py", line 250, in rmtree
+    os.remove(fullname)
+OSError: [Errno 13] Permission denied: '/home/pi/OctoPrint/src/octoprint/static/image/Kudo3D_calibration_50500124.png'
+2016-08-10 15:55:18,025 - octoprint - ERROR - Exception on /api/files/local/cylinder_test.3dlp.zip [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/pi/OctoPrint/src/octoprint/server/util/flask.py", line 214, in decorated_view
+    return flask.ext.login.login_required(func)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/Flask_Login-0.2.2-py2.7.egg/flask_login.py", line 637, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/pi/OctoPrint/src/octoprint/server/api/files.py", line 305, in gcodeFileCommand
+    printer.select_file(filenameToSelect, sd, printAfterLoading)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 1184, in select_file
+    layers = self.parse_3DLP_zip(path)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 1125, in parse_3DLP_zip
+    shutil.rmtree(self.image_dir)
+  File "/usr/lib/python2.7/shutil.py", line 252, in rmtree
+    onerror(os.remove, fullname, sys.exc_info())
+  File "/usr/lib/python2.7/shutil.py", line 250, in rmtree
+    os.remove(fullname)
+OSError: [Errno 13] Permission denied: '/home/pi/OctoPrint/src/octoprint/static/image/Kudo3D_calibration_50500124.png'
+2016-08-10 15:55:18,719 - octoprint - ERROR - Exception on /api/files/local/kudo3735.zip [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/pi/OctoPrint/src/octoprint/server/util/flask.py", line 214, in decorated_view
+    return flask.ext.login.login_required(func)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/Flask_Login-0.2.2-py2.7.egg/flask_login.py", line 637, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/pi/OctoPrint/src/octoprint/server/api/files.py", line 305, in gcodeFileCommand
+    printer.select_file(filenameToSelect, sd, printAfterLoading)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 1184, in select_file
+    layers = self.parse_3DLP_zip(path)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 1125, in parse_3DLP_zip
+    shutil.rmtree(self.image_dir)
+  File "/usr/lib/python2.7/shutil.py", line 252, in rmtree
+    onerror(os.remove, fullname, sys.exc_info())
+  File "/usr/lib/python2.7/shutil.py", line 250, in rmtree
+    os.remove(fullname)
+OSError: [Errno 13] Permission denied: '/home/pi/OctoPrint/src/octoprint/static/image/Kudo3D_calibration_50500124.png'
+2016-08-10 15:55:25,782 - octoprint - ERROR - Exception on /api/files/local/AnaisP.slice.zip [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/pi/OctoPrint/src/octoprint/server/util/flask.py", line 214, in decorated_view
+    return flask.ext.login.login_required(func)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/Flask_Login-0.2.2-py2.7.egg/flask_login.py", line 637, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/pi/OctoPrint/src/octoprint/server/api/files.py", line 305, in gcodeFileCommand
+    printer.select_file(filenameToSelect, sd, printAfterLoading)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 1184, in select_file
+    layers = self.parse_3DLP_zip(path)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 1125, in parse_3DLP_zip
+    shutil.rmtree(self.image_dir)
+  File "/usr/lib/python2.7/shutil.py", line 252, in rmtree
+    onerror(os.remove, fullname, sys.exc_info())
+  File "/usr/lib/python2.7/shutil.py", line 250, in rmtree
+    os.remove(fullname)
+OSError: [Errno 13] Permission denied: '/home/pi/OctoPrint/src/octoprint/static/image/Kudo3D_calibration_50500124.png'
+2016-08-10 15:55:43,044 - octoprint.server.api - INFO - Performing command: sudo shutdown -r now
+2016-08-10 15:55:45,536 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.102
+2016-08-10 15:56:28,382 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-08-10 15:56:28,389 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2016-08-10 15:56:29,718 - octoprint.plugin.core - INFO - No plugins available
+2016-08-10 15:56:29,934 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2016-08-10 15:56:40,116 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.102
+2016-08-10 15:56:58,253 - octoprint - ERROR - Exception on /api/files/local/kudo3735.zip [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/pi/OctoPrint/src/octoprint/server/util/flask.py", line 214, in decorated_view
+    return flask.ext.login.login_required(func)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/Flask_Login-0.2.2-py2.7.egg/flask_login.py", line 637, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/pi/OctoPrint/src/octoprint/server/api/files.py", line 305, in gcodeFileCommand
+    printer.select_file(filenameToSelect, sd, printAfterLoading)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 1184, in select_file
+    layers = self.parse_3DLP_zip(path)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 1125, in parse_3DLP_zip
+    shutil.rmtree(self.image_dir)
+  File "/usr/lib/python2.7/shutil.py", line 252, in rmtree
+    onerror(os.remove, fullname, sys.exc_info())
+  File "/usr/lib/python2.7/shutil.py", line 250, in rmtree
+    os.remove(fullname)
+OSError: [Errno 13] Permission denied: '/home/pi/OctoPrint/src/octoprint/static/image/Kudo3D_calibration_50500124.png'
+2016-08-10 15:57:41,157 - octoprint.server.api - INFO - Performing command: sudo shutdown -r now
+2016-08-10 15:57:44,421 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.102
+2016-08-10 15:58:27,242 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-08-10 15:58:27,251 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2016-08-10 15:58:28,623 - octoprint.plugin.core - INFO - No plugins available
+2016-08-10 15:58:28,833 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2016-08-10 15:58:31,504 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.102
+2016-08-10 15:58:45,020 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.102

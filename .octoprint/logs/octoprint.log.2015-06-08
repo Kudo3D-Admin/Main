@@ -1,0 +1,40 @@
+2015-06-08 05:20:16,093 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2015-06-08 05:20:16,096 - octoprint.plugin.core - INFO - Loading plugins from /home/pi/.octoprint/plugins, /home/pi/OctoPrint/src/octoprint/plugins and installed plugin packages...
+2015-06-08 05:20:16,239 - octoprint.plugins.discovery - INFO - pybonjour is not installed, Zeroconf Discovery won't be available
+2015-06-08 05:20:16,241 - octoprint.plugin.core - INFO - Found 2 plugin(s) providing 2 mixin implementations, 0 hook handlers
+2015-06-08 05:20:16,246 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2015-06-08 05:20:17,734 - octoprint.plugin.core - INFO - 2 plugin(s) registered with the system:
+|  CuraEngine (bundled) = /home/pi/OctoPrint/src/octoprint/plugins/cura
+|  Discovery (bundled) = /home/pi/OctoPrint/src/octoprint/plugins/discovery
+2015-06-08 05:20:18,116 - octoprint.plugins.discovery - INFO - Registered OctoPrint instance on octopi for SSDP
+2015-06-08 05:20:18,118 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2015-06-08 05:21:01,683 - octoprint.plugins.cura - INFO - Path to CuraEngine has not been configured yet or does not exist (currently set to None), Cura will not be selectable for slicing
+2015-06-08 05:21:01,953 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.193
+2015-06-08 05:23:22,815 - octoprint.server.api - INFO - Performing command: sudo shutdown -h now
+2015-06-08 05:24:17,586 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2015-06-08 05:24:17,590 - octoprint.plugin.core - INFO - Loading plugins from /home/pi/.octoprint/plugins, /home/pi/OctoPrint/src/octoprint/plugins and installed plugin packages...
+2015-06-08 05:24:17,824 - octoprint.plugins.discovery - INFO - pybonjour is not installed, Zeroconf Discovery won't be available
+2015-06-08 05:24:17,826 - octoprint.plugin.core - INFO - Found 2 plugin(s) providing 2 mixin implementations, 0 hook handlers
+2015-06-08 05:24:17,832 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2015-06-08 05:24:19,012 - octoprint.plugin.core - INFO - 2 plugin(s) registered with the system:
+|  CuraEngine (bundled) = /home/pi/OctoPrint/src/octoprint/plugins/cura
+|  Discovery (bundled) = /home/pi/OctoPrint/src/octoprint/plugins/discovery
+2015-06-08 05:24:19,436 - octoprint.plugins.discovery - INFO - Registered OctoPrint instance on octopi for SSDP
+2015-06-08 05:24:19,451 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2015-06-08 05:24:26,643 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.193
+2015-06-08 05:25:04,385 - octoprint.server.api - INFO - Performing command: sudo shutdown -h now
+2015-06-08 05:25:51,268 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2015-06-08 05:25:51,272 - octoprint.plugin.core - INFO - Loading plugins from /home/pi/.octoprint/plugins, /home/pi/OctoPrint/src/octoprint/plugins and installed plugin packages...
+2015-06-08 05:25:51,416 - octoprint.plugins.discovery - INFO - pybonjour is not installed, Zeroconf Discovery won't be available
+2015-06-08 05:25:51,418 - octoprint.plugin.core - INFO - Found 2 plugin(s) providing 2 mixin implementations, 0 hook handlers
+2015-06-08 05:25:51,423 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2015-06-08 05:25:52,626 - octoprint.plugin.core - INFO - 2 plugin(s) registered with the system:
+|  CuraEngine (bundled) = /home/pi/OctoPrint/src/octoprint/plugins/cura
+|  Discovery (bundled) = /home/pi/OctoPrint/src/octoprint/plugins/discovery
+2015-06-08 05:25:52,906 - octoprint.plugins.discovery - INFO - Registered OctoPrint instance on octopi for SSDP
+2015-06-08 05:25:52,907 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2015-06-08 05:25:56,577 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.193
+2015-06-08 05:27:30,178 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.193
+2015-06-08 05:27:53,688 - octoprint.plugins.cura - INFO - Path to CuraEngine has not been configured yet or does not exist (currently set to None), Cura will not be selectable for slicing
+2015-06-08 05:27:53,939 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.193
+2015-06-08 05:27:59,926 - octoprint.server.api - INFO - Performing command: sudo shutdown -h now

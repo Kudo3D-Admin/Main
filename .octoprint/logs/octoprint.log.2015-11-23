@@ -1,0 +1,19 @@
+2015-11-23 14:22:21,090 - octoprint.plugins.cura - INFO - Path to CuraEngine has not been configured yet or does not exist (currently set to None), Cura will not be selectable for slicing
+2015-11-23 14:22:23,936 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.199
+2015-11-23 14:24:16,206 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.199
+2015-11-23 14:24:17,289 - octoprint.plugins.cura - INFO - Path to CuraEngine has not been configured yet or does not exist (currently set to None), Cura will not be selectable for slicing
+2015-11-23 14:24:19,685 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.199
+2015-11-23 14:39:19,697 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.199
+2015-11-23 16:01:50,313 - octoprint.plugins.cura - INFO - Path to CuraEngine has not been configured yet or does not exist (currently set to None), Cura will not be selectable for slicing
+2015-11-23 16:01:53,124 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.199
+2015-11-23 16:01:56,207 - octoprint.server.api - INFO - Performing command: sudo shutdown -h now
+2015-11-23 16:02:33,025 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2015-11-23 16:02:33,030 - octoprint.plugin.core - INFO - Loading plugins from /home/pi/.octoprint/plugins, /home/pi/OctoPrint/src/octoprint/plugins and installed plugin packages...
+2015-11-23 16:02:33,222 - octoprint.plugins.discovery - INFO - pybonjour is not installed, Zeroconf Discovery won't be available
+2015-11-23 16:02:33,225 - octoprint.plugin.core - INFO - Found 2 plugin(s) providing 2 mixin implementations, 0 hook handlers
+2015-11-23 16:02:33,232 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+2015-11-23 16:02:34,120 - octoprint.plugin.core - INFO - 2 plugin(s) registered with the system:
+|  CuraEngine (bundled) = /home/pi/OctoPrint/src/octoprint/plugins/cura
+|  Discovery (bundled) = /home/pi/OctoPrint/src/octoprint/plugins/discovery
+2015-11-23 16:02:34,426 - octoprint.plugins.discovery - INFO - Registered OctoPrint instance "Kudo3D" for SSDP
+2015-11-23 16:02:34,428 - octoprint.server - INFO - Listening on http://0.0.0.0:5000

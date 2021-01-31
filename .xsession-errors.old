@@ -1,0 +1,64 @@
+Xsession: X session started for pi at Wed Aug 10 15:55:54 UTC 2016
+localuser:pi being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+
+** (pcmanfm:2455): WARNING **: The directory '~/Templates' doesn't exist, ignoring it
+
+(pcmanfm:2455): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(pcmanfm:2455): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(pcmanfm:2455): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(pcmanfm:2455): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(pcmanfm:2455): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+2016-08-10 15:56:28,382 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-08-10 15:56:28,389 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+Exiting Main Thread
+2016-08-10 15:56:29,718 - octoprint.plugin.core - INFO - No plugins available
+2016-08-10 15:56:29,934 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2016-08-10 15:56:40,116 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.102
+2016-08-10 15:56:58,253 - octoprint - ERROR - Exception on /api/files/local/kudo3735.zip [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1687, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1360, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1358, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/Flask-0.9-py2.7.egg/flask/app.py", line 1344, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/pi/OctoPrint/src/octoprint/server/util/flask.py", line 214, in decorated_view
+    return flask.ext.login.login_required(func)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/Flask_Login-0.2.2-py2.7.egg/flask_login.py", line 637, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/pi/OctoPrint/src/octoprint/server/api/files.py", line 305, in gcodeFileCommand
+    printer.select_file(filenameToSelect, sd, printAfterLoading)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 1184, in select_file
+    layers = self.parse_3DLP_zip(path)
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 1125, in parse_3DLP_zip
+    shutil.rmtree(self.image_dir)
+  File "/usr/lib/python2.7/shutil.py", line 252, in rmtree
+    onerror(os.remove, fullname, sys.exc_info())
+  File "/usr/lib/python2.7/shutil.py", line 250, in rmtree
+    os.remove(fullname)
+OSError: [Errno 13] Permission denied: '/home/pi/OctoPrint/src/octoprint/static/image/Kudo3D_calibration_50500124.png'
+Exception in thread display_frame:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 552, in __bootstrap_inner
+    self.run()
+  File "/home/pi/OctoPrint/src/octoprint/printer/standard.py", line 125, in run
+    self.screen.blit(self.gridimg,(0,0))
+error: display Surface quit
+
+2016-08-10 15:57:41,157 - octoprint.server.api - INFO - Performing command: sudo shutdown -r now
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 3656 requests (3656 known processed) with 0 events remaining.
+lxpolkit: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+pcmanfm: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 691 requests (691 known processed) with 3 events remaining.
+2016-08-10 15:57:44,421 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.102

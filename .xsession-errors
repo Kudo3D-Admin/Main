@@ -1,0 +1,29 @@
+Xsession: X session started for pi at Wed Aug 10 15:57:52 UTC 2016
+localuser:pi being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+
+** (pcmanfm:2454): WARNING **: The directory '~/Templates' doesn't exist, ignoring it
+
+(pcmanfm:2454): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(pcmanfm:2454): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(pcmanfm:2454): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(pcmanfm:2454): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(pcmanfm:2454): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+2016-08-10 15:58:27,242 - octoprint.server - INFO - Starting OctoPrint 1.2.0-dev-705-ga34cbc5-dirty (devel branch)
+2016-08-10 15:58:27,251 - octoprint.filemanager - INFO - Adding backlog items from local to analysis queue
+Exiting Main Thread
+2016-08-10 15:58:28,623 - octoprint.plugin.core - INFO - No plugins available
+2016-08-10 15:58:28,833 - octoprint.server - INFO - Listening on http://0.0.0.0:5000
+2016-08-10 15:58:31,504 - octoprint.server.util.sockjs - INFO - New connection from client: 192.168.0.102
+XIO:  fatal IO error 4 (Interrupted system call) on X server ":0"
+      after 36 requests (36 known processed) with 0 events remaining.
+2016-08-10 15:58:45,020 - octoprint.server.util.sockjs - INFO - Client connection closed: 192.168.0.102
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 3527 requests (3524 known processed) with 0 events remaining.
+pcmanfm: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
